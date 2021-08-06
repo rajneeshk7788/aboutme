@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(224, 236, 154);
+}
+.header{
+    background: rgb(64, 248, 7);
+    display: flex;
+    margin-bottom: 2px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    text-align: end;
+    padding-bottom: 1px;
+    /* margin-bottom: 80px; */
+    font-size: 25px;
+    margin-right: 50px;
+}
+#img1{
+   
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+}
+a{
+    margin-right: 20px;
+}
+a:hover{
+    color: red;
+}
+#form{
+    background-image: url(/picture/rrr.gif);
+   
+
+}
+.form{
+    height: auto;
+   
+    align-items: center;
+    background-color: rgba(192, 191, 124, 0.3);
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 5px;
+    flex-direction: row;
+    
+
+}
+.input{
+    margin: 30px;
+}
+input{
+    margin: 10px;
+    font-size:25PX;
+    margin-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+/* 
+.msg{
+    text-align: justify;
+    background-color: rgb(247, 245, 242);
+    
+        
+} */
+.submit{
+    font-size: 40px;
+    font-weight: 500px;
+    box-shadow: 5px;
+}
+h1{
+    text-align: center;
+    color: rgba(245, 75, 8, 0.9);
+    padding-top: 20px;
+    font-size: 30px;
+}
+.footer{
+    background-color: rgb(54, 46, 46);
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+.about{
+    background-color: rgba(243, 227, 227, 0.5);
+    color: rgba(252, 6, 27, 0.938);
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 7px 7px 7px #aaa;
+}
+#h2{
+    position: relative;
+    font-size: 4vw;
+    color: rgba(36, 243, 9, 0.979);
+    align-items: center;
+    min-height: 2vw;
+    -webkit-text-stroke:0.3vw #fd3c0b;
+    text-transform: uppercase;
+}
